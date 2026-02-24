@@ -11,7 +11,7 @@ The Web UI is fully cross-platform (Windows, Mac, and Linux). Playing it is supe
 4. **Controls**:
    - Move **Up**: `W` or `Up Arrow`
    - Move **Left**: `A` or `Left Arrow`
-   - Move **Down**: `S` or `Down Arrow`
+   - Move **Down**: `S` or `Down  Arrow`
    - Move **Right**: `D` or `Right Arrow`
    - **Pause Game**: Click the active **Pause** button on the screen and hit **Resume** when ready.
 5. Eat the red apples, don't hit the walls, and *definitely* don't eat your own tail!
