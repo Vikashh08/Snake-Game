@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake | DSA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Snake Game</h1>
+            <div class="score-board">
+                <p>Score: <span id="score">0</span></p>
+                <p>High Score: <span id="high-score">0</span></p>
+            </div>
+        </header>
+
+        <div class="canvas-wrapper">
+            <canvas id="gameCanvas" width="600" height="440"></canvas>
+
+            <div id="game-overlay" class="overlay hidden">
+                <h2 id="overlay-title">Game Over!</h2>
+                <p>Final Score: <span id="final-score">0</span></p>
+                <button id="restart-btn">Play Again</button>
+            </div>
+
+            <div id="start-overlay" class="overlay">
+                <h2>Ready to play?</h2>
+                <p>Use W, A, S, D or Arrow Keys to move.</p>
+                <button id="start-btn">Start Game</button>
+            </div>
+        </div>
+
+        <div class="controls-hint" style="text-align: center;">
+            <p><strong>Controls:</strong> W A S D or Arrow Keys</p>
+            <div style="margin-top: 1rem; display: flex; gap: 1rem; justify-content: center;">
+                <button id="pause-btn" style="padding: 0.5rem 1rem; font-size: 1rem;">Pause Game</button>
+                <button id="resume-btn" style="padding: 0.5rem 1rem; font-size: 1rem; display: none;">Resume
+                    Game</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
