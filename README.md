@@ -1,8 +1,8 @@
-# Building the Classic Snake Game 🐍✨
+# Building the Classic Snake Game 
 
 So, you know the classic Snake game everyone played on their old Nokia phones? I decided to build one, but instead of making it run in a boring terminal, we are doing it properly with a cool Web UI — HTML, CSS, and JavaScript. The craziest part? Underneath the UI, it actually uses a **Singly Linked List** to control the snake!
 
-## 🎮 How to Play (Web Version)
+##  How to Play (Web Version)
 
 The Web UI is fully cross-platform (Windows, Mac, and Linux). Playing it is super simple:
 1. Open the `SnakeWebUI/index.html` file in any web browser (Chrome, Safari, Edge, etc.).
@@ -18,11 +18,11 @@ The Web UI is fully cross-platform (Windows, Mac, and Linux). Playing it is supe
 
 ---
 
-## 💻 How to Run the C++ Version (Terminal)
+## How to Run the C++ Version (Terminal)
 
 If you still want to run the raw, terminal-based C++ version, here is how you compile and run it step-by-step:
 
-### 🍎 On Mac (or Linux):
+###  On Mac (or Linux):
 1. Open your **Terminal**.
 2. Navigate to the project folder where `snake.cpp` is located.
 3. Compile the code using `g++`:
@@ -34,7 +34,7 @@ If you still want to run the raw, terminal-based C++ version, here is how you co
    ./snake
    ```
 
-### 🪟 On Windows:
+###  On Windows:
 The `snake.cpp` file uses UNIX-specific libraries (`<unistd.h>`, `<termios.h>`) for real-time keyboard input. Because of this, it will **not** compile automatically with a standard Windows compiler (like Visual Studio or MinGW without MSYS2).
 
 **The Easiest Way to Run on Windows (WSL):**
@@ -57,7 +57,7 @@ The `snake.cpp` file uses UNIX-specific libraries (`<unistd.h>`, `<termios.h>`) 
 
 ---
 
-## 🧠 The Brains Behind the Game: How It Actually Works
+## The Brains Behind the Game: How It Actually Works
 
 I didn't just want to use a standard array to store the snake's body like every other tutorial online. Instead, I wired it up using a **Singly Linked List**. Here's why that's super cool, and how the whole thing ticks.
 
