@@ -95,7 +95,7 @@ let temp = this.head;
 while (temp.next && temp.next.next) {
     temp = temp.next;
 }
-temp.next = null; // Snip! And just like that, the snake "slid" forward.
+temp.next = null; 
 ```
 
 ### 3. Oops, I Crashed!
